@@ -1,14 +1,10 @@
-# p5.2DAdventure
-#### by Scott Kildall
-www.kildall.com
+# Privilege Micro-Tracker Chip
+#### by Monique Ray
 
 
 ## Overview
-p5.2DAventure uses a state machine to make an avatar-based navigation from a large set of rooms. Using CSV tables, it manages the allocation of images and data, avatar navigation, mouse + keyboard navigation between states and button display.
+This technology is a means of tracking the levels of privilege of the citizens of the city-state San Francisco. The person playing is tasked with electing an Equity and Inclusiveness Chair for the city-state San Francisco. So you would want to choose the absolute best person possible to make San Francisco as equitable, inviting, and fair as possible. 
 
-Requires the [p5.play](https://molleindustria.github.io/p5.play/) library, the [forked version of p5.clickable](https://github.com/scottkildall/p5.clickable) if you want to use buttons.
-
-What this will allow you to do is to create complex graphics and offload the management and navigation of these to this external library.
 
 
 ## ToDo
