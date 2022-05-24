@@ -9,42 +9,63 @@
 
     ***********************************************************************************/
 
-
+  // Global Variable
     var complexStateMachine;           // the ComplexStateMachine class
     var clickablesManager;             // our clickables manager
     var clickables;                    // an array of clickable objects
     
     var currentStateName = "";
-    var moodImage;
+    var moodImage; //POSSIBLY CHANGEEEE
+
+    // Data Players: Republican Wilson
+    var reason;
+    var icons = [];
+    var scores = [0, 0, 0 ,0 , 10];
+    var solved = [false, false, false, false, true];
     
+
+    // Colors
     var bkColor = '#031927';
     var textColor = '#E9D6EC';
     
-    var scores = [];
-    const Justin = 0;
-    const Celia = 1 ;
-    const Ashley = 2;
-    const Herbert = 3;
+    // Splash Page
+    //INSERT
+
+    // Players 
+    var republican;
+    var commissioner;
+    var advocate;
+    var tech;
+    var reformative = [];
+
+
+
+    // var scores = [];
+    // const Justin = 0;
+    // const Celia = 1 ;
+    // const Ashley = 2;
+    // const Herbert = 3;
     
-    var displayPecentages = true;
-    var displayHorizontalBars = true;
+    // var displayPecentages = true;
+    // var displayHorizontalBars = true;
     
-    var xLeftMargin = 50;     // for percentages
-    var xBarOffset = 30;
-    var yTopMargin = 50;
-    var yOffset = 50;
-    var barWidth = 30;
-    var barSpacing = 50;
+    // var xLeftMargin = 50;     // for percentages
+    // var xBarOffset = 30;
+    // var yTopMargin = 50;
+    // var yOffset = 50;
+    // var barWidth = 30;
+    // var barSpacing = 50;
     
-    var buttonFont;
+    // var buttonFont;
     
-    var lastButtonPressed = "";
+    // var lastButtonPressed = "";
     
+    // Functions p5.js
     function preload() {
       clickablesManager = new ClickableManager('data/clickableLayout.csv');
       complexStateMachine = new ComplexStateMachine("data/interactionTable.csv", "data/clickableLayout.csv");
     
-      buttonFont = loadFont("smoochsans.ttf");
+      // buttonFont = loadFont("smoochsans.ttf");
       
     }
     
