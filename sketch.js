@@ -18,6 +18,13 @@
     
     var bkColor = '#031927';
     var textColor = '#E9D6EC';
+
+    var scores = [];
+    const Jeremy = 0;
+    const Angie = 1;
+    const Rose = 2;
+    const Annie = 3;
+    const Anna = 4;
     
     var buttonFont;
     
