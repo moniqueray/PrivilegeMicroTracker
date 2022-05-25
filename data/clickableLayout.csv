@@ -1,4 +1,9 @@
 ID,Name,PNGFilename,Text,x,y,visible
-0,Next,,Next,1000,650,yes
-1,Start,,Start Scenario,1000,650,yes
-2,Restart,,Restart,100,650,yes
+0,Start,,Start,500,650,yes
+1,Next1,,Next,1000,650,yes
+2,Next2,,Next,100,650,yes
+3,Jeremy,assets/JeremyWilson.png,,500,650,yes
+4,Next3,,Next,500,650,yes
+5,Back1,,Back,500,650,yes
+6,Angie,assets/AngieTolentio.png,,500,750,yes
+7,
