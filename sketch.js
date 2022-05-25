@@ -25,6 +25,15 @@
     const Rose = 2;
     const Annie = 3;
     const Anna = 4;
+
+    var displayPercentages = true;
+    var displayHorizontalBars = true;
+
+    var xLeftMargin = 50;
+    var xBarOffset = 30;
+    var yTopMargin = 50;
+    var barWidth = 30;
+    var barSpacing = 50;
     
     var buttonFont;
     
