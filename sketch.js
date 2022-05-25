@@ -64,8 +64,13 @@
     function preload() {
       clickablesManager = new ClickableManager('data/clickableLayout.csv');
       complexStateMachine = new ComplexStateMachine("data/interactionTable.csv", "data/clickableLayout.csv");
-    
-      // buttonFont = loadFont("smoochsans.ttf");
+      
+
+      // Preload fonts
+      buttonFont = loadFont("smoochsans.ttf");
+
+      // Preload splasj images
+      splashPic[0] = loadImage('assets/')
       
     }
     
